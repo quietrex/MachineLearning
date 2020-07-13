@@ -4,6 +4,7 @@
 The current project aims to perform the prediction of used cars quality by using machine learning. As this field of research has only starting to gain attention, the reluctance of most car vendors to reveal their research findings may have indirectly contributed to the lack of literature on this regard. However, the rapid expansion of the used car industry may lead to an influx of number of used cars to be evaluated by the used car dealers. Consequently, the increased number of vehicles in varying conditions and types may overwhelm the dealers’ ability to correctly discern the vehicle quality. Machine learning has been proposed as a viable solution as the judgment of the vehicle quality can be automated by analysing the vehicle attributes. The findings of the current project revealed that machine learning may be the suitable solution to predict vehicle quality. Particularly, most models were able to detect large portion of the bad buy (vehicle that suffer from irreparable damage). 
 
 ## How to open the R programme
+```
 1. This assignment consists of 4 R programmes.
 	a.) aml.assignment.R (will consist of all the data exploration, missing values imputation, outlier 
 	    treatment and normality checking.
@@ -16,10 +17,15 @@ The current project aims to perform the prediction of used cars quality by using
 4. Kindly run b, c, d by setting working directory that has csv (kickDataset_4_Transformed).
 5. kindly run a by setting working directory that has csv (kick.csv).
 
-In this folder, we will have final document, 4 R scripts, 2 dataset (cleaned and uncleaned dataset), and readme.txt
+In this folder, we will have final document, 4 R scripts, 2 dataset (cleaned and uncleaned dataset)
+```
 
 ## How to get the dataset
-Download kick dataset: https://www.openml.org/d/41162
+```
+1. Download kick dataset: https://www.openml.org/d/41162 Or Open dataset/kick (original data)
+2. Open the preprocessed data with dataset/kickDataset_4_Transformed
+```
+
 
 ## Problem statement
 The large amount and variety of used cars with different levels of quality makes the judgment of the vehicle quality an overwhelming task for the dealers. Aside from the used car dealers, the consumers may also be less confident towards used cars and may consequently affect the industry.  Given the financial and reputational consequences of purchasing used cars that suffers from serious mechanical issues, the identification of factors that can help to determine the quality of used cars will be very useful to the dealers and the consumers. Although recent works in the field of machine learning has demonstrated some promising results, the serious lack of empirical findings still make the field an uncharted ground. 
